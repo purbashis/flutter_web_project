@@ -14,7 +14,9 @@ class _NavBarState extends State<NavBar> {
   @override
   Widget build(BuildContext context) {
     // ignore: deprecated_member_use
-    return ScreenTypeLayout(mobile: MobileNavBar(),
+    return ScreenTypeLayout(
+      
+      mobile: MobileNavBar(),
     desktop: DesktopNavBar(),);
   }
   //=================Mobile=====================

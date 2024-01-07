@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_web_project/pages/container.dart';
 import 'package:flutter_web_project/utils/constants.dart';
 import 'package:flutter_web_project/widgets/navbar.dart';
 
@@ -17,10 +18,8 @@ class _HomeState extends State<Home> {
     return Scaffold(
       body: SingleChildScrollView(
         child: Container(
-          child: Column(
-            children: [
-               NavBar()
-            ],
+          child: const Column(
+            children: [NavBar(), Container1()],
           ),
         ),
       ),
